@@ -1,0 +1,207 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 21px;
+	text-shadow: 1px 1px 0 rgba(255,255,255,.75);
+}
+
+header {
+	height:  300px;
+	background-position: center center;
+	background-size:  cover;
+	background-image: url(pics/lightened_metal.jpg);
+	background-repeat: no-repeat;
+}
+
+.inner-wrapper {
+	margin: 0 auto;
+	height: 100%;
+	width: 590px;
+}
+
+#main_header h1 {
+	margin: 0;
+	padding: 76px 0 8px;
+}
+
+#main_header .inner-wrapper {
+	padding-left: 110px;
+	background: url(pics/main_icon.png) 28px center no-repeat;
+	width: 560px;
+	text-align: center;
+}
+
+#main_header .phone {
+	display: inline-block;
+	background: url(pics/phone_icon.png) left center no-repeat;
+	padding-left: 50px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+
+.short-block {
+	padding: 5px 0;
+	background-color: #000;
+}
+
+.short-block-inner {
+	background-color: #282828;
+	height: 80px;
+	line-height: 80px;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 3px 3px 0 rgba(0,0,0,.75);
+	text-align: center;
+	font-size: 1.4em;
+	border-top: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+}
+
+
+#light_grey_part {
+	height: 270px;
+	background-color: #c2c5c9;
+}
+
+#light_grey_part .inner-wrapper {
+	padding-left: 110px;
+	background: url(pics/nitka.png) left 53px no-repeat;
+	font-size: 1.4em;
+}
+
+#light_grey_part .inner-wrapper span {
+	display: block;
+	text-align: center;
+}
+
+#light_grey_part .inner-wrapper span:first-child {
+	padding-top: 88px;
+}
+
+#light_grey_part #price {
+	padding-top: 15px;
+}
+
+#delivery .short-block-inner {
+	background-color: #6a6c6e;
+}
+
+#delivery  .short-block-inner img,
+#light_grey_part #price img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+}
+
+#advantages .inner-wrapper {
+	width: 700px;
+	height: 294px;
+	padding-top: 40px;
+}
+
+#advantages .advantage-item {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+.advantage-item h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	font-size: 1.1em;
+	height: 50px;
+	line-height: 50px;
+}
+
+.advantage-item h1.two-lines {
+	line-height: 25px;
+}
+
+#advantages .advantage-description {
+	width: 150px;
+	height: 150px;
+	border-radius: 80px;
+	border: 5px solid #000;
+	margin: 0 auto;
+	background-color: #e0e3e8;
+}
+
+#quality .advantage-description {
+	font-weight: bold;
+	font-size: 2.1em;
+	line-height: 145px;
+}
+
+#approach .advantage-description {
+	font-size: 1em;
+	padding-top: 15px;
+	height: 135px;
+	background: url(pics/handshake_icon.png) center 80px no-repeat #e0e3e8;
+}
+
+#speed .advantage-description {
+	font-size: .75em;
+}
+
+#speed .advantage-description span {
+	display: block;
+}
+
+#speed .advantage-description span:first-child {
+	padding: 17px 0 9px;
+	border-bottom: 2px solid #000;
+	margin: 0 8px;
+}
+
+#speed .advantage-description span:last-child {
+	padding-top: 6px;
+	margin: 0 8px;
+	border-top:2px solid #fff;
+}
+
+#table {
+	background-color: #eaedf2;
+	padding: 40px 0;
+	border-bottom: 5px solid #000;
+}
+
+#table .inner-wrapper {
+	width: 800px;
+}
+
+#table table {
+	width: 100%;
+}
+
+#table table tr {
+	margin-bottom: .2em;
+}
+
+#table table th {
+	padding: .5em .2em;
+	background-color: #d6dbe2;
+	border-radius: 3px;
+}
+
+#table table td {
+	padding: .5em .2em;
+	background-color: #fbfbfc;
+	border-radius: 3px;
+}
+
+footer {
+	height:  100px;
+	background-position: center center;
+	background-size:  cover;
+	background-image: url(pics/lightened_metal.jpg);
+	background-repeat: no-repeat;
+}
+
+
