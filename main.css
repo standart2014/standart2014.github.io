@@ -18,6 +18,10 @@ header {
 	background-repeat: no-repeat;
 }
 
+body *|*:link {
+  color: 000;
+}
+
 .inner-wrapper {
 	margin: 0 auto;
 	height: 100%;
@@ -44,6 +48,10 @@ header {
 	line-height: 40px;
 	font-size: 1.2em;
 	margin-top: 10px;
+}
+
+#main_header .phone a {
+  text-decoration: none;
 }
 
 .short-block {
@@ -202,6 +210,12 @@ footer {
 	background-size:  cover;
 	background-image: url(pics/lightened_metal.jpg);
 	background-repeat: no-repeat;
+  text-align: center;
+}
+
+footer address {
+  font-style: normal;
+  padding-top: 1em;
 }
 
 
