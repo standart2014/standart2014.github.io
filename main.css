@@ -83,9 +83,10 @@ body *|*:link {
 }
 
 #light_grey_part .inner-wrapper {
-	padding-left: 110px;
-	background: url(pics/nitka.png) left 53px no-repeat;
+	padding-left: 90px;
+	background: url(pics/babbit.png) 118px 70px no-repeat;
 	font-size: 1.4em;
+  background-size: 121px auto;
 }
 
 #light_grey_part .inner-wrapper span {
